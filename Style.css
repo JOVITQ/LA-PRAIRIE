@@ -1,0 +1,69 @@
+
+
+.body {
+  background-color: #00FF7F;
+}
+.circle {
+  background:#FFFFFF;
+  border-radius:50%;
+  width:160px;
+  height:160px;
+  border:2px solid #000000;
+  margin: 0 auto;
+  padding: 150px;
+  margin-top: 100px;
+  box-shadow:
+    0 0 0 20px violet,
+    0 0 0 40px indigo,
+    0 0 0 60px blue,
+    0 0 0 80px green,
+    0 0 0 100px yellow,
+    0 0 0 120px orange,
+    0 0 0 140px red;
+  width: 0;
+}
+
+.circleone {
+  background:#708090;
+  width:500px;
+  height: 160px;
+  border-radius:50%;
+  border:2px solid #000000;
+  margin: 0 auto;
+  padding: 50px;
+  margin-top: 100px;
+  text-align: center;
+  position: absolute;
+  left: 50px;
+  webkit-border-radius: 150px;
+	-moz-border-radius: 150px;
+	background: url(Image/Maria1.jpg) center no-repeat;
+}
+
+.ul {
+	overflow: auto;
+}
+
+.ul .li {
+	list-style-type: none;
+	float: left;
+}
+
+.ul .li .a .i {
+	background: #205D7A;
+	color: #fff;
+	width: 40px;
+	height: 40px;
+	border-radius: 20px;
+	font-size: 25px;
+	text-align: center;
+	margin-right: 10px;
+	padding-top: 15%;
+}
+
+.ul .li .a .i {
+	transition: all 0.2s ease-in-out;
+}
+.ul .li .a .i:hover {
+	opacity: .7;
+}
